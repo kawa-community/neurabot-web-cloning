@@ -1,1 +1,1 @@
-This our repository for landing page
+This our repository for landing page.
