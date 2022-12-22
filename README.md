@@ -8,3 +8,15 @@ Happy Coding !!!
 Web Inspiration: **[Neurabot](https://neurabot.ai/)**
 
 This our repository for landing page.
+
+## Purpose
+
+- Learn how the code structure and features of the website are made, as well as provide ideas on how to develop a website according to future needs.
+- Training materials to improve our ability to write efficient and structured code.
+- Learn and develop our skills in website programming.
+
+## Reason
+
+- Responsive design
+- Minimalist design
+- Animation
