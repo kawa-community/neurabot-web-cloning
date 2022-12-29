@@ -6,8 +6,16 @@
   height: 180px;
 }
 
+.media {
+  margin: 70px auto;
+  max-width: 1000px;
+  padding-bottom: 10px;
+  height: 180px;
+}
+
 .kerjasama h1,
-.penghargaan h1 {
+.penghargaan h1,
+.media h1 {
   text-align: center;
   margin: 40px;
 }
