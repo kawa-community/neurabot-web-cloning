@@ -1,0 +1,22 @@
+.kerjasama {
+  margin: 70px auto;
+  max-width: 1184px;
+  padding-bottom: 10px;
+  height: 180px;
+}
+
+.kerjasama h1 {
+  text-align: center;
+  margin: 40px;
+}
+
+.kerjasama .likerjasama {
+  margin: 2.3%;
+  width: 12%;
+  float: left;
+}
+
+.kerjasama .likerjasama img {
+  width: 100%;
+  height: auto;
+}
