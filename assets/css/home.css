@@ -15,7 +15,8 @@
 
 .kerjasama h1,
 .penghargaan h1,
-.media h1 {
+.media h1,
+.media p {
   text-align: center;
   margin: 40px;
 }
