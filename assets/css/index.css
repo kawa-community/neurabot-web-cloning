@@ -66,6 +66,7 @@ li {
 .navbar > .nav > .navbar-list-btn {
   float: right;
   margin-top: 4px;
+  display: flex;
 }
 
 .navbar-list-btn > .navbar-list > li {
@@ -100,6 +101,45 @@ li {
 }
 #menu {
   display: none;
+}
+
+#myModal {
+  position: fixed;
+  width: 86vw;
+  height: 100vh;
+  background-color: #ffffff;
+  right: 0;
+  z-index: 999;
+  display: none;
+}
+
+#myModal.show {
+  display: flex;
+  flex-direction: column;
+}
+
+#myModal.show a:nth-child(n) {
+  padding: 15px 22px;
+  font-weight: 600;
+  color: #000;
+}
+
+#myModal.show a:nth-child(n):hover {
+  background-color: #e8eeff;
+}
+
+#myModal .title-myModal {
+  padding: 30px 22px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  opacity: 0.6;
+  padding-bottom: 30px;
+}
+
+#myModal .title-myModal p {
+  font-size: larger;
 }
 
 footer {
@@ -213,7 +253,6 @@ footer > .container-footer {
   #menu:hover {
     color: #1756fd;
   }
-
   footer > .container-footer {
     display: block;
     margin-left: 20px;
