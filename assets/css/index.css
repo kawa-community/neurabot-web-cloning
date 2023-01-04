@@ -225,12 +225,8 @@ footer > .container-footer {
   line-height: 26px;
 }
 
-.hubungi p {
+.contact p {
   display: inline;
-}
-
-.contact2 {
-  display: block;
 }
 
 @media (max-width: 991px) {
