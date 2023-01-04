@@ -31,7 +31,8 @@
 }
 
 .hero .heroDescription button,
-.secondaryHoWork button {
+.secondaryHoWork button,
+.tele .teleLink button {
   padding: 10px 44px;
   border: 1px solid #1756fd;
   margin-right: 40px;
@@ -44,17 +45,20 @@
 }
 
 .hero .heroDescription button:hover,
-.secondaryHoWork button:hover {
+.secondaryHoWork button:hover,
+.tele .teleLink button:hover {
   box-shadow: 0 8px 10px #658effc9;
 }
 
-.hero .heroDescription a {
+.hero .heroDescription a,
+.tele .teleLink a {
   font-size: 16px;
   font-weight: 600;
   color: #979797;
 }
 
-.hero .heroDescription a:hover {
+.hero .heroDescription a:hover,
+.tele .teleLink a:hover {
   color: #000;
 }
 
@@ -140,6 +144,33 @@
   width: 200px;
 }
 
+.tele {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/assets/img/tele.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: 1;
+  height: 300px;
+}
+
+.tele h1 {
+  max-width: 920px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+}
+
+.tele p {
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 920px;
+  text-align: center;
+}
+
 .consumersCooperations,
 .appreciation {
   margin: 70px auto;
@@ -214,8 +245,5 @@
   .hoWork .secondaryHoWork {
     width: 100vw;
     padding: 100px 0 0 100px;
-  }
-
-  .hoWork .secondaryHoWork p {
   }
 }
