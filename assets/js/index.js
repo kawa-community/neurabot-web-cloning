@@ -1,6 +1,7 @@
 var button = document.getElementById("menu");
 var div = document.getElementById("myModal");
 var span = document.getElementById("close");
+var x = window.matchMedia("(min-width: 991px)");
 
 button.onclick = function () {
   if (div.classList.contains("show") !== true) {
@@ -19,13 +20,12 @@ window.onclick = function (event) {
     div.classList.remove("show");
   }
 };
+
 function myFunction(x) {
   if (x.matches) {
-    // If media query matches
     div.classList.remove("show");
   }
 }
 
-var x = window.matchMedia("(min-width: 991px)");
-myFunction(x); // Call listener function at run time
-x.addListener(myFunction); // Attach listener function on state changes
+myFunction(x);
+x.addListener(myFunction);
