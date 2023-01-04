@@ -1,5 +1,5 @@
-.kerjasama,
-.penghargaan {
+.consumersCooperations,
+.appreciation {
   margin: 70px auto;
   max-width: 1184px;
   padding-bottom: 10px;
@@ -13,21 +13,21 @@
   height: 180px;
 }
 
-.kerjasama h1,
-.penghargaan h1,
+.consumersCooperations h1,
+.appreciation h1,
 .media h1,
 .media p {
   text-align: center;
   margin: 40px;
 }
 
-.likerjasama {
+.Item {
   margin: 2.3%;
   width: 12%;
   float: left;
 }
 
-.likerjasama img {
+.Item img {
   width: 100%;
   height: auto;
 }
