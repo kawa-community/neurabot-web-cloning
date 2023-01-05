@@ -4,15 +4,11 @@
   background-color: #ebf3f9;
   margin: 40px auto;
   height: 540px;
-  /* padding: 20px; */
-  /* justify-content: center; */
-  /* margin-top: 20px; */
   justify-content: space-between;
   border-radius: 40px;
 }
 
 .hero .heroDescription {
-  /* background-color: aquamarine; */
   max-width: 510px;
   padding: 40px;
   padding-right: 10px;
@@ -31,7 +27,8 @@
 }
 
 .hero .heroDescription button,
-.secondaryHoWork button {
+.secondaryHoWork button,
+.information button {
   padding: 10px 44px;
   border: 1px solid #1756fd;
   margin-right: 40px;
@@ -44,7 +41,8 @@
 }
 
 .hero .heroDescription button:hover,
-.secondaryHoWork button:hover {
+.secondaryHoWork button:hover,
+.information button:hover {
   box-shadow: 0 8px 10px #658effc9;
 }
 
@@ -202,6 +200,72 @@
   transition: 0.5s;
 }
 
+.information .informationList {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: auto;
+  padding: 90px 0;
+}
+
+.information .informationList.distinct .informationImage {
+  order: -1;
+  padding-left: 180px;
+}
+
+.information .informationList.distinct .informationDescription {
+  padding: 0 180px 0 80px;
+}
+
+.information .informationList .informationDescription {
+  width: 50vw;
+  padding: 0 80px 0 180px;
+}
+
+.information .informationList .informationImage {
+  width: 50vw;
+}
+
+.information .informationList .informationImage img {
+  width: 37vw;
+  height: auto;
+}
+
+.information .informationList .informationDescription h1 {
+  font-size: 38px;
+  line-height: 46px;
+  font-weight: 700;
+  color: #303133;
+  margin-bottom: 40px;
+}
+
+.information .informationList .informationDescription p {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.informationBg {
+  background-image: url("/assets/img/information1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 11vw;
+  width: 40vw;
+  height: 600px;
+  z-index: -1;
+}
+
+.informationBg.two {
+  left: 12vw;
+  width: 60vw;
+  height: 600px;
+}
+
+.informationBg.three {
+  height: 700px;
+}
+
 .consumersCooperations,
 .appreciation {
   margin: 70px auto;
@@ -276,5 +340,51 @@
   .hoWork .secondaryHoWork {
     width: 100vw;
     padding: 100px 0 0 100px;
+  }
+
+  .information .informationList {
+    flex-direction: column;
+  }
+  .information .informationList .informationDescription,
+  .information .informationList.distinct .informationDescription {
+    width: 100vw;
+    padding: 20px;
+  }
+
+  .information .informationList .informationDescription button {
+    margin-bottom: 15px;
+  }
+  .information .informationList .informationImage {
+    width: 60vw;
+    margin-bottom: 80px;
+  }
+
+  .information .informationList .informationImage img {
+    width: 60vw;
+  }
+
+  .information .informationList.distinct .informationImage {
+    padding: 0;
+  }
+
+  .information .informationList.distinct .informationImage {
+    order: 1;
+  }
+
+  .informationBg {
+    right: 0;
+    width: 100vw;
+    height: 600px;
+    margin-top: 340px;
+    padding-top: 200px;
+  }
+
+  .informationBg.two {
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 600px;
+    margin-top: 400px;
+    padding-top: 200px;
   }
 }
