@@ -215,6 +215,11 @@ footer > .container-footer {
   line-height: 18.4px;
 }
 
+.company-list li a:hover,
+.support-list li a:hover {
+  color: #606266;
+}
+
 .container-footer .support {
   width: 300px;
   line-height: 18.4px;
@@ -227,6 +232,10 @@ footer > .container-footer {
 
 .contact p {
   display: inline;
+}
+
+.contact-list-media a img:hover {
+  opacity: 0.6;
 }
 
 @media (max-width: 991px) {
