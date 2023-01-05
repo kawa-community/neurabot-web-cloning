@@ -31,8 +31,7 @@
 }
 
 .hero .heroDescription button,
-.secondaryHoWork button,
-.tele .teleLink button {
+.secondaryHoWork button {
   padding: 10px 44px;
   border: 1px solid #1756fd;
   margin-right: 40px;
@@ -45,8 +44,7 @@
 }
 
 .hero .heroDescription button:hover,
-.secondaryHoWork button:hover,
-.tele .teleLink button:hover {
+.secondaryHoWork button:hover {
   box-shadow: 0 8px 10px #658effc9;
 }
 
@@ -146,14 +144,24 @@
 
 .tele {
   display: flex;
-  position: relative;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
+.teleBackground {
   background-image: url("/assets/img/tele.svg");
+  position: absolute;
+  right: 0;
+  width: 500px;
+  height: 390px;
+  display: block;
   background-size: contain;
+  text-size-adjust: 100%;
+  z-index: -1;
   background-repeat: no-repeat;
-  right: 1;
-  height: 300px;
+  background-position-x: right;
 }
 
 .tele h1 {
@@ -162,6 +170,7 @@
   font-weight: 700;
   line-height: 46px;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .tele p {
@@ -169,6 +178,28 @@
   line-height: 30px;
   max-width: 920px;
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.tele .teleLink button {
+  color: #1756fd;
+  background-color: #fffffffe;
+  width: 150px;
+  height: 43px;
+  padding: 10px 44px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #1756fd;
+  transition: 0.5s;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 40px;
+}
+
+.tele .teleLink button:hover {
+  background: #e8eeff;
+  border: 1px solid #b9ccfe;
+  transition: 0.5s;
 }
 
 .consumersCooperations,
