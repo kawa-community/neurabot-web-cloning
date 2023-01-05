@@ -267,7 +267,6 @@
 }
 
 .testi {
-  /* background-color: #1756fd; */
   height: 500px;
   display: flex;
   align-items: center;
@@ -399,6 +398,12 @@
     border-radius: 0 0 40px 40px;
     height: auto;
   }
+  .heroBackgroundR {
+    display: none;
+  }
+  .heroBackgroundL {
+    display: none;
+  }
   .hero .heroDescription {
     width: 90vw;
     padding: 0;
@@ -477,5 +482,18 @@
     height: 600px;
     margin-top: 400px;
     padding-top: 200px;
+  }
+
+  .testi1 {
+    height: auto;
+    width: 90vw;
+  }
+
+  .testi2 {
+    overflow: hidden;
+  }
+
+  .testi3 {
+    overflow: hidden;
   }
 }
