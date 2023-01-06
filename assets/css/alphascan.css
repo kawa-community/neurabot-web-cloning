@@ -1,0 +1,144 @@
+.hero {
+  margin-top: 20px;
+  height: 500px;
+  align-items: center;
+}
+
+.hero .heroDescription a:hover {
+  box-shadow: 0 16px 10px #979797;
+}
+
+.hero .heroDescription a img {
+  width: 130px;
+  height: auto;
+  position: relative;
+  top: 13px;
+}
+
+.upgrade {
+  max-width: 1184px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upgradeDescription {
+  padding-right: 120px;
+}
+
+.upgradeDescription h2 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  margin-bottom: 35px;
+}
+
+.upgradeDescription p {
+  font-size: 16px;
+  line-height: 25px;
+  color: rgb(96, 98, 102);
+  margin-bottom: 36px;
+}
+
+.upgradeDescription .identity {
+  display: flex;
+}
+
+.identityDesc {
+  padding-left: 20px;
+}
+
+.upgradeDescription .identity img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.upgradeDescription .identity p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.upgradeDescription .identity strong {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.upgradeDescription button {
+  margin-top: 30px;
+  padding: 10px 44px;
+  border: 1px solid #1756fd;
+  margin-right: 40px;
+  background-color: #1756fd;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  white-space: nowrap;
+  margin-bottom: 25px;
+}
+
+.upgradeDescription button:hover {
+  box-shadow: 0 8px 10px #658effc9;
+}
+
+.upgradeImage {
+  max-width: 39vw;
+}
+
+.upgradeImage img {
+  max-width: 39vw;
+}
+
+.demo {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebf3f9;
+  width: 89.5vw;
+  height: auto;
+  margin: 50px 0;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8vw;
+  padding-top: 120px;
+  padding-bottom: 75px;
+}
+
+.demo h2 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  margin-bottom: 40px;
+}
+
+.demoVideo {
+  overflow: hidden;
+}
+
+.demoVideo iframe {
+  overflow: hidden;
+}
+@media (max-width: 991px) {
+  .hero {
+    margin: 0;
+    height: auto;
+  }
+
+  .upgrade {
+    flex-direction: column;
+  }
+
+  .upgradeDescription {
+    padding: 0 30px;
+  }
+
+  .upgradeImage {
+    max-width: 56vw;
+  }
+
+  .upgradeImage img {
+    max-width: 56vw;
+  }
+}
