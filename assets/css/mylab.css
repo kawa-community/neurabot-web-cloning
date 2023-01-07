@@ -1,11 +1,6 @@
 .hero {
-  margin-top: 20px;
   height: 500px;
   align-items: center;
-}
-
-.hero .heroDescription a:hover {
-  box-shadow: 0 16px 10px #979797;
 }
 
 .hero .heroDescription a img {
