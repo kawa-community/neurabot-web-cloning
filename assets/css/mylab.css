@@ -136,4 +136,8 @@
   .upgradeImage img {
     max-width: 56vw;
   }
+
+  .demoVideo iframe {
+    width: 80vw;
+  }
 }
