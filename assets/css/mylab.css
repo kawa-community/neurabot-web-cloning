@@ -71,34 +71,42 @@
   color: #303133;
 }
 
-.demo {
+.step {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1184px;
   display: flex;
-  flex-direction: column;
-  background-color: #ebf3f9;
-  width: 89.5vw;
-  height: auto;
-  margin: 50px 0;
-  align-items: center;
-  justify-content: center;
-  padding-left: 8vw;
-  padding-top: 120px;
-  padding-bottom: 75px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.demo h2 {
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 46px;
-  margin-bottom: 40px;
+.step-section {
+  width: 100%;
+  display: flex;
+  padding: 98px 0;
 }
 
-.demoVideo {
-  overflow: hidden;
+.text-step h1 {
+  position: absolute;
+  margin-left: 35px;
+  margin-top: -25px;
+  font-weight: bold;
+  color: #f0f2f5;
+  font-size: 240px;
+  line-height: 1;
+  z-index: -1;
 }
 
-.demoVideo iframe {
-  overflow: hidden;
+.text-step-group {
+  margin-left: 84px;
+  margin-top: 123px;
 }
+
+.text-step-group h2 {
+  margin: 0.83em 0;
+  font-size: 40px;
+}
+
 @media (max-width: 991px) {
   .timeline {
     padding: 100px 0 100px;
