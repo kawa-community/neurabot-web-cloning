@@ -141,7 +141,28 @@
     transform: rotate(90deg);
   }
 
-  .demoVideo iframe {
-    width: 80vw;
+  .step-section {
+    display: flex;
+    flex-direction: row-reverse;
+    /* flex-wrap: wrap; */
+  }
+
+  .step-section .img-step {
+    width: 100%;
+  }
+
+  .step-section .img-step img {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .step-section .text-step {
+    width: 100%;
+    margin: auto;
+  }
+
+  .step-section .text-step .text-step-group {
+    max-width: 200px;
   }
 }
