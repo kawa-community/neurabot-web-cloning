@@ -143,6 +143,30 @@
   line-height: 1.5;
 }
 
+.collaboration {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1184px;
+}
+
+.collaboration .collaboration-title {
+  margin-bottom: 48px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.collaboration .collaboration-group {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.collaboration .collaboration-point img {
+  width: 200px;
+}
+
 @media (max-width: 991px) {
   .timeline {
     padding: 100px 0 100px;
