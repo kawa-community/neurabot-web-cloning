@@ -107,6 +107,43 @@
   font-size: 40px;
 }
 
+.fasility {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1184px;
+}
+
+.fasility .fasility-header {
+  font-size: 35px;
+  margin-bottom: 100px;
+}
+
+.fasility .fasility-group {
+  display: flex;
+  margin-bottom: 200px;
+  justify-content: space-between;
+}
+
+.fasility .fasility-group .fasility-point {
+  width: 17%;
+}
+
+.fasility .fasility-group .fasility-point-icon {
+  margin-top: 32px;
+}
+
+.fasility .fasility-group .fasility-point-title {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+
+.fasility .fasility-group .fasility-point-desc {
+  color: #213053;
+
+  line-height: 1.5;
+}
+
 @media (max-width: 991px) {
   .timeline {
     padding: 100px 0 100px;
