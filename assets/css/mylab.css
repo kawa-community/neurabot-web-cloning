@@ -252,4 +252,27 @@
     width: 100%;
     text-align: center;
   }
+
+  .collaboration .collaboration-title {
+    margin-bottom: 48px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .collaboration .collaboration-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .collaboration .collaboration-point {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .collaboration .collaboration-point img {
+    width: 200px;
+  }
 }
