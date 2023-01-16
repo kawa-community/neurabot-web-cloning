@@ -140,7 +140,6 @@
 
 .fasility .fasility-group .fasility-point-desc {
   color: #213053;
-
   line-height: 1.5;
 }
 
@@ -205,5 +204,28 @@
 
   .step-section .text-step .text-step-group {
     max-width: 200px;
+  }
+
+  .fasility {
+    width: 90%;
+  }
+
+  .fasility .fasility-header {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .fasility .fasility-group {
+    display: flex;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+  }
+
+  .fasility .fasility-group .fasility-point {
+    width: 100%;
+    text-align: center;
   }
 }
