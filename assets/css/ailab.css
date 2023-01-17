@@ -62,77 +62,46 @@
   height: auto;
 }
 
-.timeline {
+.achievement {
   margin-left: auto;
   margin-right: auto;
   max-width: 1184px;
 }
 
-.timeline .title-timeline {
-  text-align: center;
-  max-width: 912px;
-  line-height: 46px;
-  font-size: 25px;
-  margin: 0 auto 48px auto;
-}
-.timeline .title-timeline h2 {
-  font-weight: bolder;
-}
-
-.timeline .body-timeline {
+.achievement .achievement-header {
   display: flex;
-  margin-left: -40px;
-  justify-content: space-between;
-  background-image: url("/assets/img/bg-timeline.svg");
 }
 
-.timeline .body-timeline .box-body-timeline,
-.timeline .body-timeline .last-box-body-timeline {
-  margin: 0 64px 27px;
+.achievement .achievement-left {
+  width: 50%;
   display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  vertical-align: top;
-}
-
-.timeline .body-timeline .box-body-timeline .img-box-body-timeline img,
-.timeline .body-timeline .last-box-body-timeline .img-box-body-timeline img {
-  width: 188px;
-  height: 112px;
-  border: 0;
-}
-
-.timeline .body-timeline .box-body-timeline .paragraph-desc-timeline,
-.timeline .body-timeline .last-box-body-timeline .last-paragraph-desc-timeline {
-  display: inline-grid;
+  flex-wrap: wrap;
   align-items: center;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
-  line-height: 1.5;
-  width: 188px;
-  height: 67px;
-  color: #fff;
-  background-color: #638eff;
-  border-radius: 5px;
+}
+
+.achievement .achievement-left .achievement-left-title {
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 25px;
+}
+
+.achievement .achievement-left .achievement-left-desc {
   font-size: 16px;
-  font-weight: 700;
-  margin: 18px 0px;
+  color: #606266;
+  line-height: 25px;
+  padding-top: 12px;
+  margin-bottom: 40px;
+  opacity: 0.7;
+  max-width: 550px;
 }
 
-.timeline .body-timeline .box-body-timeline .paragraph-desc-timeline::before {
-  content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTE1IiBoZWlnaHQ9IjEyIiB2aWV3Qm94PSIwIDAgMTIyIDEyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMTAgNUw1LjA0NzM2ZS0wNyAwLjIyNjQ5N0wtNS4wNDczNmUtMDcgMTEuNzczNUwxMCA3TDEwIDVaTTEyMiA2LjAwMDAxTDExMiAwLjIyNjUwN0wxMTIgMTEuNzczNUwxMjIgNi4wMDAwMVpNOSA3TDExMyA3LjAwMDAxTDExMyA1LjAwMDAxTDkgNUw5IDdaIiBmaWxsPSIjNjM4RUZGIi8+Cjwvc3ZnPgo=);
-  position: absolute;
-  margin-left: 195px;
+.achievement .achievement-right {
+  width: 50%;
 }
 
-.timeline .body-timeline .box-body-timeline .desc-box-body-timeline,
-.timeline .body-timeline .last-box-body-timeline .desc-box-body-timeline {
-  width: 188px;
-  text-align: left;
-  font-size: 14px;
-  font-weight: 400;
-  color: #303133;
+.achievement .achievement-right .achievement-right-image {
+  margin: 16px 16px 16px auto;
+  max-width: 487px;
 }
 
 .step {
