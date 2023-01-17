@@ -104,6 +104,39 @@
   max-width: 487px;
 }
 
+.achievement .achievement-label {
+  margin: 16px;
+  background-color: #f0f2f5;
+  padding: 40px 40px;
+  border-radius: 48px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.achievement .achievement-label .achievement-label-point {
+  text-align: center;
+  padding: 8px 16px;
+}
+
+.achievement .achievement-label .achievement-label-point h3 {
+  font-size: 48px;
+  line-height: 30px;
+  margin: 28px 0;
+  color: #1756fd;
+  opacity: 0.7;
+}
+
+.achievement .achievement-label .achievement-label-point p {
+  font-size: 16px;
+  color: #303133;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.achievement .achievement-label .achievement-label-point:not(:last-child) {
+  border-right: 2px solid #638eff;
+}
+
 .step {
   margin-left: auto;
   margin-right: auto;
