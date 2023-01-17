@@ -137,40 +137,67 @@
   border-right: 2px solid #638eff;
 }
 
-.step {
+.howwework {
   margin-left: auto;
   margin-right: auto;
   max-width: 1184px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  padding: 150px 0;
 }
 
-.step-section {
-  width: 100%;
-  display: flex;
-  padding: 98px 0;
+.howwework .howwework-image {
+  margin-top: 48px;
+  margin-right: 20px;
 }
 
-.text-step h1 {
-  position: absolute;
-  margin-left: 35px;
-  margin-top: -25px;
-  font-weight: bold;
-  color: #f0f2f5;
-  font-size: 240px;
-  line-height: 1;
-  z-index: -1;
+.howwework .howwework-image img {
+  width: 600px;
 }
 
-.text-step-group {
-  margin-left: 84px;
-  margin-top: 123px;
+.howwework .howwework-text {
+  margin-left: 32px;
 }
 
-.text-step-group h2 {
-  margin: 0.83em 0;
-  font-size: 40px;
+.howwework .howwework-text .howwework-text-title {
+  font-size: 38px;
+  line-height: 46px;
+  font-weight: 700;
+  color: #303133;
+  max-width: 394px;
+}
+
+.howwework .howwework-text .howwework-text-desc {
+  font-size: 16px;
+  color: #213053;
+  line-height: 25px;
+  margin-bottom: 20px;
+  max-width: 420px;
+  opacity: 0.7;
+}
+
+.howwework .howwework-text .howwework-text-desc-add {
+  font-size: 20px;
+  color: #213053;
+  opacity: 0.7;
+  max-width: 420px;
+  letter-spacing: 0.5px;
+}
+
+.howwework .howwework-text .howwework-button button {
+  padding: 10px 44px;
+  border: 1px solid #1756fd;
+  margin-right: 40px;
+  background-color: #1756fd;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  white-space: nowrap;
+  transition: 0.4s;
+}
+
+.howwework .howwework-text .howwework-button button:hover {
+  box-shadow: 0 8px 10px #658effc9;
 }
 
 .fasility {
