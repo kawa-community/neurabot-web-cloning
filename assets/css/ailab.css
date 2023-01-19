@@ -224,11 +224,87 @@
   justify-content: space-between;
   vertical-align: middle;
   align-items: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .collaboration .collaboration-point img {
   width: 200px;
+}
+
+.doctor {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1184px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px 0;
+  position: relative;
+}
+
+.doctor-background {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjMxIiBoZWlnaHQ9IjQ5NyIgdmlld0JveD0iMCAwIDYzMSA0OTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNjM2LjM3NyAxNzlDNjM2LjM3NyAzLjM3MzQ2IDQ5NC4wMDMgLTEzOSAzMTguMzc3IC0xMzlDMTQyLjc1IC0xMzkgMC4zNzY4MzEgMy4zNzM0NiAwLjM3NjgzMSAxNzlDMC4zNzY4MzEgMzU0LjYyNyAxNDIuNzUgNDk3IDMxOC4zNzcgNDk3QzQ5NC4wMDMgNDk3IDYzNi4zNzcgMzU0LjYyNyA2MzYuMzc3IDE3OVpNNjkuNjU3NyAxNzlDNjkuNjU3NyA0MS42MzYzIDE4MS4wMTMgLTY5LjcxOSAzMTguMzc3IC02OS43MTlDNDU1Ljc0IC02OS43MTkgNTY3LjA5NiA0MS42MzYzIDU2Ny4wOTYgMTc5QzU2Ny4wOTYgMzE2LjM2NCA0NTUuNzQgNDI3LjcxOSAzMTguMzc3IDQyNy43MTlDMTgxLjAxMyA0MjcuNzE5IDY5LjY1NzcgMzE2LjM2NCA2OS42NTc3IDE3OVoiIGZpbGw9InVybCgjcGFpbnQwX2xpbmVhcikiLz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhciIgeDE9IjAuMzc2ODMxIiB5MT0iLTEzOSIgeDI9IjAuMzc2ODMxIiB5Mj0iNDk3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiNFRUY0RjkiIHN0b3Atb3BhY2l0eT0iMC4wMSIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNFQkYzRjkiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  right: 0;
+  z-index: -1;
+}
+
+.doctor .doctor-left {
+  width: 33.3333333333%;
+  margin-top: 56px;
+  max-width: 386px;
+  display: grid;
+}
+
+.doctor .doctor-left .doctor-text {
+  padding: 28px 0;
+  border-bottom: 1px solid #303133;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #303133;
+  margin-right: 12px;
+}
+
+.doctor .doctor-left .doctor-profile {
+  padding: 32px 0;
+  display: flex;
+}
+
+.doctor .doctor-left .doctor-profile .doctor-image-profile img {
+  margin-top: 12px;
+  width: 113px;
+  height: 113px;
+}
+
+.doctor .doctor-left .doctor-profile .doctor-name {
+  display: block;
+}
+
+.doctor .doctor-left .doctor-profile .doctor-name .doctor-fullname {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
+  margin: 8px 0;
+  margin-left: 24px;
+}
+
+.doctor .doctor-left .doctor-profile .doctor-name .doctor-title {
+  font-size: 14px;
+  font-style: italic;
+  margin-left: 24px;
+}
+
+.doctor .doctor-right {
+  width: 66.6666666667%;
+}
+
+.doctor-right .doctor-image img {
+  width: 800px;
 }
 
 @media (max-width: 991px) {
