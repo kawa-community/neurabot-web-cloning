@@ -386,11 +386,38 @@
   background-color: #ebf3f9;
   text-align: center;
 }
+
+.data-support .data-support-title p {
+  font-size: 20px;
+  line-height: 25px;
+  color: #213053;
+  opacity: 0.7;
+  font-weight: bolder;
+}
+
 .data-support .data-support-features {
   max-width: 1184px;
   margin-left: auto;
   margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 32px;
 }
+
+.data-support .data-support-features .data-support-icon {
+  margin: 16px auto;
+  height: 60px;
+  width: 45px;
+}
+
+.data-support .data-support-features .data-support-icon-name {
+  font-size: 16px;
+  color: #213053;
+  line-height: 25px;
+  padding-top: 16px;
+  opacity: 0.7;
+}
+
 @media (max-width: 991px) {
   .timeline {
     padding: 100px 0 100px;
